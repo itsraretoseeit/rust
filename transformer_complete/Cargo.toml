@@ -1,0 +1,18 @@
+[package]
+name = "transformer_complete"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+toml = "0.5"
+xml-rs = "0.8"
+rusqlite = "0.28"
+postgres = "0.19"
+redis = "0.22"
+time = "0.3"
+
