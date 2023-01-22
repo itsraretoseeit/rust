@@ -1,0 +1,16 @@
+[input]
+xml_file = "../data/sales.xml"
+json_file = "../data/sales.json"
+
+[postgresql]
+database = "rust_transformer"
+username = "user1"
+password = "pass1"
+host = "host1"
+port = "1234"
+
+[redis]
+host = "redishost"
+
+[sqlite]
+db_file = "path_to_sqlite"
